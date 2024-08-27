@@ -1,1 +1,2 @@
-# PrototypePattern
+# Prototype pattern
+PrototypePattern is a project designed to demonstrate the implementation of the Prototype design pattern in a corporate environment. The project features a hierarchy of employee classes representing different roles within a company, such as Managers, Engineers, and Interns. Each class implements a custom cloning interface IMyCloneable alongside the standard ICloneable interface to enable deep copying of objects. The project showcases how objects can be cloned, including their specific properties, by calling parent constructors, thus preserving the integrity of the object's state during the cloning process.
